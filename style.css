@@ -1,0 +1,40 @@
+body {
+    margin: 20px;
+    background-color: rgb(252, 214, 220);
+}
+
+#headline,
+.content-description{
+    text-align: center;
+    font-family: "Lucida Console",Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.content-description,
+.definition-section{
+    font-size: small;
+    color: rgb(133, 133, 133);
+}
+
+.content-header,
+.subcontent-header{
+    font-family: "Lucida Handwriting", Georgia, 'Times New Roman', Times, serif;
+}
+
+.content,
+.definition-section{
+    padding: 20px 50px;
+}
+
+.section-one,
+.section-two,
+.section-three{
+    display: inline-block;
+    padding: 16px;
+}
+
+.content{
+    width: 700px;
+    margin: 0 auto;
+    background-color: azure;
+}
