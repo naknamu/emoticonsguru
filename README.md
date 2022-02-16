@@ -2,15 +2,15 @@
 Project Description:
 This a static website that will feature various kinds of emoticons according to respective categories.
 
-Positive Feelings
+Positive Feeling
 * Happy
 * Love
 
-Negative Feelings
+Negative Feeling
 * Anger
 * Sadness
 
-Neutral Emotions
+Neutral Feeling
 * Confusion
 * Suprise
 
