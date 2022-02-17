@@ -7,7 +7,6 @@ body {
 .content-description{
     text-align: center;
     font-family: "Lucida Console",Georgia, 'Times New Roman', Times, serif;
-
 }
 
 .content-description,
@@ -21,20 +20,21 @@ body {
     font-family: "Lucida Handwriting", Georgia, 'Times New Roman', Times, serif;
 }
 
-.content,
+.maincontent,
 .definition-section{
     padding: 20px 50px;
+}
+
+.maincontent{
+    width: 700px;
+    margin: 0 auto;
+    background-color: azure;
 }
 
 .section-one,
 .section-two,
 .section-three{
-    display: inline-block;
-    padding: 16px;
-}
-
-.content{
-    width: 700px;
-    margin: 0 auto;
-    background-color: azure;
+    display: inline-table;
+    padding: 20px;
+    font-size: 30px;
 }
