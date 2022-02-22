@@ -38,3 +38,8 @@ body {
     padding: 20px;
     font-size: 30px;
 }
+
+ul{
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+}
