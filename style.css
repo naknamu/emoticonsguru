@@ -1,16 +1,26 @@
 body {
-    margin: 20px;
     background-color: rgb(252, 214, 220);
+    margin: 0;
+    height: 100vh;
 }
 
-#headline,
-.content-description{
-    text-align: center;
+.header{
     font-family: "Lucida Console",Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
 }
 
 .content-description,
-.definition-section{
+.footer{
     font-size: small;
     color: rgb(133, 133, 133);
 }
@@ -20,16 +30,11 @@ body {
     font-family: "Lucida Handwriting", Georgia, 'Times New Roman', Times, serif;
 }
 
-.maincontent,
-.definition-section{
-    padding: 20px 50px;
-}
-
 .maincontent{
     width: 700px;
     margin: 0 auto;
     background-color: azure;
-    
+    padding: 16px 64px;
 }
 
 .container{
@@ -66,4 +71,26 @@ ul{
 
 .maincontent p:active{
     background-color: pink
+}
+
+.footer{
+    font-family: "Lucida Console",Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 32px 100px;
+}
+
+.footer-sub{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    gap: 8px;
+}
+
+.question{
+    font-weight: bold;
+    font-size: 16px;
 }
