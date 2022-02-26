@@ -29,17 +29,37 @@ body {
     width: 700px;
     margin: 0 auto;
     background-color: azure;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8px;
+    padding: 16px;
 }
 
 .section-one,
 .section-two,
 .section-three{
-    display: inline-table;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
     font-size: 30px;
 }
 
 ul{
     /* this removes the dots on the list items*/
     list-style-type: none;
+}
+
+.maincontent p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    margin: 0;
+}
+
+.maincontent p:hover{
+    background-color: aquamarine;
 }
