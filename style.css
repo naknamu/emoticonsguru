@@ -61,5 +61,9 @@ ul{
 }
 
 .maincontent p:hover{
-    background-color: aquamarine;
+    background-color: rgb(250, 221, 226);
+}
+
+.maincontent p:active{
+    background-color: pink
 }
