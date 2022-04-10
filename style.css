@@ -27,12 +27,8 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-
     .maincontent{
-        width: 700px;
+        width: 650px;
     }
 }
 
