@@ -28,7 +28,11 @@ body {
 
 @media screen and (max-width: 600px) {
     .maincontent{
-        width: 650px;
+        /* width: 650px; */
+        width: clamp(45ch, 50%, 75ch);
+    }
+    p {
+        font-size: 16px;
     }
 }
 
